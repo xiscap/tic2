@@ -1,0 +1,12 @@
+#condicional,exercici 3
+
+echo "Digues un numero"
+    read numero2
+
+numero=$((RANDOM%10))
+echo $numero
+
+if test $numero2 -gt $numero
+then
+echo "El primer nombre es mes gran"
+fi

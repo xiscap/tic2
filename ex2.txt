@@ -1,0 +1,12 @@
+#condicional, exercici 2
+
+echo "Digués un numero1"
+read numero1
+echo "Digués un numero2"
+read numero2
+
+echo "$((numero1*2))"
+if test $numero1 -gt $numero2
+then
+echo "numero 1 és més gran"
+fi 

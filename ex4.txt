@@ -1,0 +1,9 @@
+#condicional,exercici 4
+
+num1=$((RANDOM%11))
+echo num1
+num2=$((RANDOM%11))
+echo num2
+
+if test $num1 -gt $num2
+then 

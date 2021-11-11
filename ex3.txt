@@ -1,12 +1,13 @@
-#condicional,exercici 3
+#array, 3
 
-echo "Digues un numero"
-    read numero2
+conta=0
+paraules=("h" "d" "d" "d" "d" "g" "h" "j" "h" "a" "H")
 
-numero=$((RANDOM%10))
-echo $numero
-
-if test $numero2 -gt $numero
-then
-echo "El primer nombre es mes gran"
-fi
+for var in ${paraules[@]}
+do
+    if [[ $var == "h" ]] || [[ $var == "H" ]]
+    then 
+        conta=$(($conta+1))
+    fi
+done
+echo "El nombre de h és $conta"

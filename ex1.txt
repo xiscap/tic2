@@ -1,0 +1,5 @@
+#array, 1
+
+paraules=(hola bon dia)
+
+echo ${paraules[1]}

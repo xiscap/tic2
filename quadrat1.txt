@@ -1,0 +1,17 @@
+#quadrtas,1
+
+num=("1" "2" "3" "4" "5" "6" "7" "8" "9")
+num2=1
+
+echo "digues un num"
+read num
+
+
+for (( i=0; i<$num; i++ ))
+do
+    for (( j=1; j<$num; j++ ))
+    do
+        printf $num
+    done
+    echo $num
+done
